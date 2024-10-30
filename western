@@ -1,0 +1,16 @@
+public class CraftingRecipe {
+    public string name;
+    public List<Item> ingredients;
+    public Item result;
+    public float craftingTime;
+}
+
+public class Player : MonoBehaviour {
+    public List<CraftingRecipe> knownRecipes;
+    public Inventory inventory;
+    public void Craft(CraftingRecipe recipe) {
+        // Verificar se os ingredientes estão no inventário
+        // Iniciar o processo de crafting
+        // Após o tempo de crafting, adicionar o item ao inventário
+    }
+}
